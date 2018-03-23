@@ -11,14 +11,23 @@ package Aula5;
  * @author Sergio
  */
 
-public abstract class Cliente extends Pessoa implements Autenticavel{
+public class Cliente extends Pessoa implements Autenticavel{
 
 	double saldo;
+	double saque;
+	double deposito;
 	double limite;
 	double chequeEspecial;
 	
-	public void sacar(){}
-	public void depositar(){}
+	public void sacar(double saldo, double saque){
+		if(saldo>saque){
+		saque=saldo -saque;
+		}system.out.println("Saldo: T$"+saldo+" insuficiente para saque valor: "+saque);
+	}
+	public void depositar(double saldo, double deposito){
+		saldo=saldo+deposito;
+		system.out.println("Deposito no valor: T$"+deposito+"\nSaldo atual: T$"+saldo);
+	}
 	
 	
 }
