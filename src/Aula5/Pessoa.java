@@ -11,7 +11,7 @@ package Aula5;
  */
 
 
-public class Pessoa {
+public abstract class Pessoa {
 
 	protected String Nome;
 	protected int idade;
