@@ -16,9 +16,5 @@ public class Diretor extends Funcionario implements Autenticavel{
         return true;
     }
 
-    @Override
-    public boolean atutentica(int senha) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
     
 }
