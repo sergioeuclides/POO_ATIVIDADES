@@ -17,11 +17,17 @@ public class Cavalo extends Mamifero{
 	public String emitirSom(){
 		return "relinchar";
 	}
-	public void alimentar(){}
+	public void alimentar(){
+		System.out.println("Alimentar no pasto");
+	}
 	
-	public void levarVeterinario(){}
+	public void levarVeterinario(){
+		System.out.println("levarVeterinario");
+	}
 	
-	public void chamarVeterinario(){}
+	public void chamarVeterinario(){
+		System.out.println("cavalo doente");
+	}
 	
 	
 
