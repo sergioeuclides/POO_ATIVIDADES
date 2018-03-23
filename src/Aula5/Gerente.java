@@ -31,17 +31,13 @@ public class Gerente extends Funcionario implements Autenticavel{
     public void setNumFuncionariosGerenciados(int numFuncionariosGerenciados) {
         this.numFuncionariosGerenciados = numFuncionariosGerenciados;
     }
-    public boolean autentica(int senha){
+	//atualizar
+    public boolean autentica(int senha){//override da interface? subir atutentica para abstract funcionario
         if(this.senha!=senha){
             return false;}
         
-        return true;}
-
-    @Override
-    public boolean atutentica(int senha) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return true;
     }
-
     
 	
 }
