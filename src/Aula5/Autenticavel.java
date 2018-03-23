@@ -11,6 +11,6 @@ package Aula5;
  */
 public interface Autenticavel{
     
-    public boolean atutentica(int senha);
+    public boolean autentica(int senha);
     
 }
