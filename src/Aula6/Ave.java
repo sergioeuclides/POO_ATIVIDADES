@@ -14,7 +14,7 @@ package Aula6;
 public class Ave {
 	
 	public void voar (){
-		System.out.println("AvuandoSobeNoiz");
+		System.out.println("Sobrevoando");
 		
 	}
 
