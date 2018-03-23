@@ -5,8 +5,6 @@
  */
 package Aula5;
 
-import Aula4.*;
-
 /**
  *
  * @author Sergio
